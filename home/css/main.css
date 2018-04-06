@@ -1,0 +1,73 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("/home/media/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    margin: 0;
+}
+
+.img-fluid{
+    height: 150px;
+}
+
+#main_title {
+    font-size: 5rem;
+}
+
+#car_color_1 {
+    color: rgb(40, 73, 186);
+}
+
+#car_color_2 {
+    color: rgb(240, 154, 25);
+}
+
+#car_color_3 {
+    color: rgb(200, 255, 164);
+}
+
+#car_color_4 {
+    color: rgb(235, 255, 33);
+}
+
+#rotating {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+#image_galary {
+    display: none;
+    color: white;
+}
+
+#hide{
+    margin-bottom: 30px;
+    margin-left: 2px;
+}
+
+.card{
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+
+.footer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
